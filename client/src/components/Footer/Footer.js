@@ -11,7 +11,6 @@ function Footer(props) {
                 <li><Link to="/contact">Contact Us</Link></li>
             </ul>
             <p>©2019 Endemic Design</p>
-            <p>This project is supported in part by the Cultural Arts Division of the City of Austin Economic Development Department.</p>
         </div>
     )
 }
