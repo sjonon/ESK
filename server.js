@@ -3,14 +3,10 @@ const express = require("express");
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const cors = require('cors')
-// const cookieSession = require('cookie-session');
-const cookieParser = require('cookie-parser');
-const passport = require("passport");
 // //this will need to be modified later if needed. connected to routes/auth-routes///////////////
 // const authRoutes = require('./apiauthentication/routes/users');
 //const passportSetup = require('./config/passport');
 const path = require("path");
-var session = require("express-session");
 // var passport = require("passport");
 // var session = require("express-session");
 const bodyParser = require("body-parser");
@@ -43,20 +39,6 @@ app.use(cors({
 //   }
 // }));
 
-app.use(cookieParser());
-
-
-//For BodyParser
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-
-// // For Passport
-// app.use(session({ secret: "keyboard cat",resave: true, saveUninitialized:true})); // session secret
- 
-// app.use(passport.initialize());
- 
-// app.use(passport.session()); // persistent login sessions
-
 if(process.env.NODE_ENV === "production"){
   app.use(express.static("client/build"))
 }
@@ -68,10 +50,7 @@ if(process.env.NODE_ENV === "production"){
 // }));
 
 // Routes///////////////////////////does it need any more routes listed?
-app.use('/users', require('./apiauthentication/routes/users'));
-app.use(require('./apiauthentication/routes/api/event'));
-app.use(require('./apiauthentication/routes/api/itinerary'));
-app.use(require('./apiauthentication/routes/users'));
+app.use(require('./routes/api/event'));
 
 var syncOptions = { force: false };
 
@@ -97,7 +76,7 @@ app.use("*", (req, res) => {
         PORT
       );
     }
-    else{console.log(err, "Something went wrong with the possport db update");}
+    else{console.log(err, "error occurred while starting up the server");}
   });
 // });
 

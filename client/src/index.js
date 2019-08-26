@@ -1,20 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { createStore, applyMiddleware, compose } from 'redux';
-import { Provider } from 'react-redux';
-import reduxThunk from 'redux-thunk';
 import axios from 'axios';
 
 import * as serviceWorker from './serviceWorker';
 import App from './components/App';
 import './index.css';
 
-import reducers from './reducers'
 import Home from './pages/Home';
 // import MainNav from './components/MainNav';
-import SignUp from './components/SignUp';
-import SignIn from './components/SignIn';
 import Schedule from './pages/Schedule';
 import ScheduleDay from './pages/ScheduleDay';
 import ScheduleVenue from './pages/ScheduleVenue';
@@ -23,13 +17,9 @@ import Faq from './pages/FAQ';
 import Footer from './components/Footer';
 import Privacy from './components/Privacy';
 import About from './pages/About';
-import Itinerary from './pages/Itinerary';
 import Contact from './pages/Contact';
-// import NoMatch from './pages/NoMatch';
+import NoMatch from './pages/NoMatch';
 // import './App.css';
-
-// import authGuard from './components/HOCs/authGuard';
-// import * as actions from './actions'
 
 ReactDOM.render(
   <BrowserRouter>

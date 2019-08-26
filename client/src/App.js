@@ -11,7 +11,6 @@ import Faq from './pages/FAQ';
 // import Footer from './components/Footer';
 import Privacy from './components/Privacy';
 import About from './pages/About';
-import Itinerary from './pages/Itinerary';
 import Contact from './pages/Contact';
 import NoMatch from './pages/NoMatch';
 //import SignUpCompo from './components/SignUpCompo/SignUpCompo';

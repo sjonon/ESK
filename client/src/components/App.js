@@ -14,9 +14,6 @@
 
 //App.js
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-
-import * as actions from '../actions';
 import MainNav from './MainNav';
 import './MainNav/MainNav.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -27,10 +24,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 library.add(faSignInAlt, faSignOutAlt, faClipboardList, faIdBadge, faIdCard, faCalendarAlt, faQuestionCircle, faBookmarkSolid, faBookmarkRegular)
 
 class App extends Component {
-  componentDidMount() {
-    this.props.checkAuth();
-  }
-
+  
   render() {
     return (
       <div>
@@ -43,4 +37,4 @@ class App extends Component {
   }
 }
 
-export default connect(null, actions)(App);
+export default App;
