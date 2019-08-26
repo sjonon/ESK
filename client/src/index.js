@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import axios from 'axios';
+// import axios from 'axios';
 
 import * as serviceWorker from './serviceWorker';
 import App from './components/App';
@@ -38,7 +38,7 @@ ReactDOM.render(
           <Route component={NoMatch} />
         </Switch>
       </App>
-      <Footer />
+      {/* <Footer /> */}
   </BrowserRouter>,
   document.querySelector('#root'));
 // // If you want your app to work offline and load faster, you can change

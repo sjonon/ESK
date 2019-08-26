@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import ScheduleNavDay from '../components/ScheduleNav/ScheduleNavDay';
 import { Container } from '../components/Grid';
 import API from '../utils/API';
@@ -177,14 +176,6 @@ class ScheduleDay extends Component {
     );
   }
 }
-function mapStateToProps(state) {
-  return {
-      isAuth: state.auth.isAuthenticated,
-      auth: state.auth,
-      name: state.auth.name,
-      email: state.auth.email,
-      userID: state.auth.id
-  }
-}
-export default connect(mapStateToProps, {})(ScheduleDay);
-//export default ScheduleDay;
+
+// export default connect(mapStateToProps, {})(ScheduleDay);
+export default ScheduleDay;
