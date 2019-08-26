@@ -14,7 +14,6 @@ import ScheduleDay from './pages/ScheduleDay';
 import ScheduleVenue from './pages/ScheduleVenue';
 import Sponsors from './pages/Sponsors';
 import Faq from './pages/FAQ';
-import Footer from './components/Footer';
 import Privacy from './components/Privacy';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -37,7 +36,6 @@ ReactDOM.render(
           <Route exact path="/contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>
-        <Footer />
       </App>
   </BrowserRouter>,
   
