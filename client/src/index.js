@@ -37,9 +37,10 @@ ReactDOM.render(
           <Route exact path="/contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>
+        <Footer />
       </App>
-      {/* <Footer /> */}
   </BrowserRouter>,
+  
   document.querySelector('#root'));
 // // If you want your app to work offline and load faster, you can change
 // // unregister() to register() below. Note this comes with some pitfalls.
