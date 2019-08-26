@@ -4,11 +4,10 @@
     margin: 0 auto;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    height: 170px;
     width: 100%;
     text-align: center;
     position: relative;
-    bottom: -200px
+    bottom: -240px
 }
 
 ul {
