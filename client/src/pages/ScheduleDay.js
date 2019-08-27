@@ -16,8 +16,8 @@ class ScheduleDay extends Component {
   };
 
   componentDidMount() {
-    this.loadVenues();
-    this.loadArtists();
+    //this.loadVenues();
+    //this.loadArtists();
     this.loadEventsDay();
   }
 
@@ -38,7 +38,9 @@ class ScheduleDay extends Component {
   }
 
   //function to load events
-  loadEventsDay = () => {
+  loadEventsDay = async() => {
+    await this.loadVenues();
+    await this.loadArtists();
     API.getEventsByDay()
       .then(res => {
         console.log("eventsByDay: ", res.data)
