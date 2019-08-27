@@ -40,7 +40,6 @@ class ScheduleDay extends Component {
   //function to load events
   loadEventsDay = async() => {
     await this.loadVenues();
-    console.log("load", this.state.venues)
     await this.loadArtists();
     API.getEventsByDay()
       .then(res => {
