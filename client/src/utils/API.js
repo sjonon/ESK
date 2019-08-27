@@ -54,5 +54,5 @@ export default {
   //   console.log("signout: ", req);
   //   return axios.post ( "/users/signout", req)
 // }
-
+  
 };
