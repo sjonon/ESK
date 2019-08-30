@@ -76,6 +76,7 @@ class ScheduleDay extends Component {
           events: eventsByDay,
           days: eventDates
         })
+        console.log(eventsByDay)
       });
   }
   createScheduleLayout = () => {
@@ -101,7 +102,7 @@ class ScheduleDay extends Component {
             if (venuesAdded.indexOf(tempEventList[e].locationName) === -1) {
               eventArr.push(
                 <div>
-                  <h4>{tempEventList[e].locationName} | {tempEventList[e].startTime} - {tempEventList[e].endTime}</h4>
+                  <h4>{tempEventList[e].locationName} | {moment(tempEventList[e].startTime, "HH:mm").format("hh:mm a")} - {moment(tempEventList[e].endTime ,"HH:mm").format("hh:mm a")}</h4>
                   <h6>Artists: {tempEventList[e].artistNames}</h6>
                   <button style={{ fontSize: "20px" }} className="button bdButton"><FontAwesomeIcon icon="id-badge" />More Info</button>
                 </div>
