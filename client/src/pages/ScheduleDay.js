@@ -23,7 +23,7 @@ class ScheduleDay extends Component {
 
   //function to load venues
   loadVenues = () => {
-    API.getVenues()
+    return API.getVenues()
       .then(res => {
         this.setState({ venues: res.data })
       })
@@ -31,7 +31,7 @@ class ScheduleDay extends Component {
 
   //function to load artists
   loadArtists = () => {
-    API.getArtists()
+    return API.getArtists()
       .then(res => {
         this.setState({ artists: res.data })
       })
