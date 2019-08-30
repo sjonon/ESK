@@ -23,7 +23,7 @@ class ScheduleDay extends Component {
 
   //function to load venues
   loadVenues = () => {
-    API.getVenues()
+    return API.getVenues()
       .then(res => {
         this.setState({ venues: res.data })
       })
@@ -31,7 +31,7 @@ class ScheduleDay extends Component {
 
   //function to load artists
   loadArtists = () => {
-    API.getArtists()
+    return API.getArtists()
       .then(res => {
         this.setState({ artists: res.data })
       })
@@ -43,13 +43,13 @@ class ScheduleDay extends Component {
     await this.loadArtists();
     API.getEventsByDay()
       .then(res => {
-        console.log("eventsByDay: ", res.data)
         const eventsByDay = res.data;
         const venues = this.state.venues;
         const artists = this.state.artists;
         const eventDates = [];
-        //find unique dates in the dataset also parse them into the format required 
+        //find unique dates in the dataset also parse them into the format required
         for (var i = 0; i < eventsByDay.length; i++) {
+          const artistNames = [];
           const parsedDate = moment(eventsByDay[i].startDate).format("ddd, MMM Do YYYY");
           eventsByDay[i].eventDate = parsedDate;
           if (eventDates.indexOf(parsedDate) === -1) {
@@ -64,8 +64,13 @@ class ScheduleDay extends Component {
           //add the artists
           eventsByDay[i].artistNames = "";
           for (var a = 0; a < eventsByDay[i].artists.length; a++) {
-            eventsByDay[i].artistNames += artists.filter(r => r._id === eventsByDay[i].artists[a])[0].artistName + (i < eventsByDay[i].artists.length - 1 ? ", " : "");
+            const artist = artists.filter(r => r._id === eventsByDay[i].artists[a]);
+            if (artist && artist[0]) {
+              artistNames.push(artist[0].artistName);
+            }
           }
+
+          eventsByDay[i].artistNames = artistNames.join(", ");
         }
         this.setState({
           events: eventsByDay,
