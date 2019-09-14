@@ -12,6 +12,8 @@ class ArtistCard extends Component {
         artistName: "",
         artistSpotify: "",
         artistYoutube: "",
+        event: "",
+        about: ""
     }
 
     _show = (bool) => {
@@ -19,6 +21,8 @@ class ArtistCard extends Component {
             this.setState({
                 show: true,
                 artistName: this.props.name,
+                event: this.props.event,
+                about: this.props.about
                 // artistSpotify: this.props.spotify,
                 // artistYoutube: this.props.youtube
             });
@@ -47,6 +51,8 @@ class ArtistCard extends Component {
                 {this.state.show 
                 ? <MoreInfo 
                     name={this.state.artistName}
+                    event={this.state.event}
+                    about={this.state.about || ""}
                     spotify={this.props.spotify || ""}
                     youtube={this.props.youtube || ""}/> 
                 : null}

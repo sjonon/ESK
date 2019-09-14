@@ -37,6 +37,8 @@ class Schedule extends Component {
                     name={artists.artistName}
                     spotify={artists.artistSpotify}
                     youtube={artists.artistYoutube}
+                    about={artists.artistAbout}
+                    event={artists.artistEvent}
                     />)
             })}
             </Container>

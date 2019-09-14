@@ -8,7 +8,8 @@ const artistSchema = new Schema({
     artistAbout: { type: String, required: false },
     artistSite: { type: String, required: false },
     artistSpotify: { type: String, required: false },
-    artistYoutube: { type: String, required: false }
+    artistYoutube: { type: String, required: false },
+    artistEvent: [{ type: String, required: false }]
 });
 
 const Artist = mongoose.model("Artist", artistSchema);

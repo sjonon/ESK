@@ -47,11 +47,12 @@ class ScheduleDay extends Component {
         const venues = this.state.venues;
         const artists = this.state.artists;
         const eventDates = [];
+        console.log("res.data", res.data)
         //find unique dates in the dataset also parse them into the format required
         for (var i = 0; i < eventsByDay.length; i++) {
           const artistNames = [];
-          const parsedDate = moment(eventsByDay[i].startDate).format("ddd, MMM Do YYYY");
-          eventsByDay[i].eventDate = parsedDate;
+          const parsedDate = eventsByDay[i].eventDay;
+          eventsByDay[i].eventDay = parsedDate;
           if (eventDates.indexOf(parsedDate) === -1) {
             eventDates.push(parsedDate);
           }
@@ -76,75 +77,77 @@ class ScheduleDay extends Component {
           events: eventsByDay,
           days: eventDates
         })
-        // console.log(eventsByDay)
+        console.log("eventsbyday", eventsByDay)
+        console.log("days", eventDates)
       });
   }
   createScheduleLayout = () => {
 
     //Losing state in the loops hence these temporary variables to hold the state data
     // const stateVenues = this.state.venues;
-    const stateEvents = this.state.events;
-    const stateDays = this.state.days;
+    // const stateEvents = this.state.events;
+    // const stateDays = this.state.days;
 
 
     let daysArr = [];
-    for (let i = 0; i < stateDays.length; i++) {
-      const tempEventList = stateEvents.filter(row => row.eventDate === stateDays[i])
+    for (let i = 0; i < this.state.events.length; i++) {
+      const tempEventList = this.state.events.filter(row => row.eventDay === this.state.events[i].eventDay)
       let venuesArr = [];
+      let eventArr = [];
       console.log("venArr", venuesArr)
       console.log("tempEventList", tempEventList)
       //loop through the temp events list to assign child elements
       for (let e = 0; e < tempEventList.length; e++) {
         // const tempVenueList = tempEventList.filter(row => row.locationName === tempEventList[e].locationName)
-        let eventArr = [];
         // const venuesAdded = [];
         // console.log("tempVenueList", tempVenueList)
         //assign venue sub-headings in this loop
         // for (let v = 0; v < tempVenueList.length; v++) {
         //if the location matches event location
         // if (tempEventList[e].locationName === tempVenueList[v].locationName) {
-          eventArr.push(
-            <div>
-              <h4>{moment(tempEventList[e].startDate).format("ddd")}: {moment(tempEventList[e].startTime, "HH:mm").format("hh:mm a")} - {moment(tempEventList[e].endTime, "HH:mm").format("hh:mm a")}</h4>
-              <h4>{tempEventList[e].artistNames}</h4>
-              {/* <button style={{ fontSize: "20px" }} className="button bdButton"><FontAwesomeIcon icon="id-badge" />More Info</button> */}
-            </div>
-          )
-        // }
-      
+        eventArr.push(
+          <div>
+            <h4>{moment(tempEventList[e].startDate).format("ddd")}: {moment(tempEventList[e].startTime, "HH:mm").format("hh:mm a")} - {moment(tempEventList[e].endTime, "HH:mm").format("hh:mm a")}</h4>
+            <h4>{tempEventList[e].artistNames}</h4>
+            {/* <button style={{ fontSize: "20px" }} className="button bdButton"><FontAwesomeIcon icon="id-badge" />More Info</button> */}
+          </div>
+        )
+
+
         console.log("eventArr", eventArr)
-    // }
+
         venuesArr.push(
           <Container className="card scheduleByDay">
             <h3>{tempEventList[e].locationName}</h3>
             {eventArr}
           </Container>);
 
+        }
+        daysArr.push(
+          <Container>
+            <h2 className="dayLabel">{this.state.days[i]}</h2>
+            {venuesArr}
+          </Container>
+        )
+
+
+        }
+        console.log("daysArr", daysArr)
+        return daysArr;
+
       }
-      daysArr.push(
-        <Container>
-          <h2 className="dayLabel">{stateDays[i]}</h2>
-          {venuesArr}
-        </Container>
-      )
-
-
+    
+    render() {
+      return (
+        <div>
+          <ScheduleNav />
+          <Container className="under-nav">
+            {this.createScheduleLayout()}
+          </Container>
+        </div>
+      );
     }
-    console.log("daysArr", daysArr)
-    return daysArr;
   }
 
-  render() {
-    return (
-      <div>
-        <ScheduleNav />
-        <Container className="under-nav">
-          {this.createScheduleLayout()}
-        </Container>
-      </div>
-    );
-  }
-}
-
-// export default connect(mapStateToProps, {})(ScheduleDay);
-export default ScheduleDay;
+  // export default connect(mapStateToProps, {})(ScheduleDay);
+  export default ScheduleDay;

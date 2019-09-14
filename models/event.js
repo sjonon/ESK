@@ -14,6 +14,7 @@ const eventSchema = new Schema({
   endDate: { type: Date, required: false },
   startTime: { type: String, required: true },
   endTime: { type: String, required: true },
+  eventDay: { type: String, required: true }
 });
 
 const Event = mongoose.model("Event", eventSchema);

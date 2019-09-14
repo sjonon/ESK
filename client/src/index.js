@@ -18,6 +18,7 @@ import Privacy from './components/Privacy';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import NoMatch from './pages/NoMatch';
+import SchedulePic from './pages/SchedulePic'
 // import './App.css';
 
 ReactDOM.render(
@@ -27,7 +28,7 @@ ReactDOM.render(
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/schedule" component={Schedule} />
-          <Route exact path="/scheduleday" component={ScheduleDay} />
+          <Route exact path="/scheduleday" component={SchedulePic} />
           <Route exact path="/schedulevenue" component={ScheduleVenue} />
           <Route exact path="/sponsors" component={Sponsors} />
           <Route exact path="/faq" component={Faq} />
