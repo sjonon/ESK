@@ -24,7 +24,8 @@
 
   .moreInfo {
     width: 100%;
-    display:inline-flex;
+    display:block;
+    text-align: center;
   }
 
   .moreEventInfo {

@@ -14,3 +14,13 @@
     height: 100%;
     width: 100%
 }
+#schedule img{
+    height: 100%;
+    width: 100%
+}
+#schedule {
+    font-family: 'Oswald', sans-serif;
+}
+#schedule h1 {
+    text-align: center;
+}

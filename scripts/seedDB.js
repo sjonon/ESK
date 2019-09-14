@@ -13,7 +13,8 @@ const artistSeed = [
     artistID: 1,
     artistName: "Adrian Reed Gospel Mass",
     artistPicture: "https://i.imgur.com/PRXh1ZD.jpg",
-    artistYoutube: "https://www.youtube.com/embed/9HZu1rlwBfI"
+    artistYoutube: "https://www.youtube.com/embed/9HZu1rlwBfI",
+    artistEvent: "Mission Possible: Sun, Sept 15 5:15-6:15pm"
 
   },
   {
@@ -23,7 +24,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "https://eastsidemusic.com/meet-the-teachers/andre-hayward/",
     artistSpotify: "https://open.spotify.com/embed/track/1XEOnfdtuJRmvdG1jvpGuW",
-    artistYoutube: "https://www.youtube.com/embed/GKCpaLR_r14&list=PLh6cmoyN1yneZ4Sb1zrLhF7bhLmDUU-nB&index=5"
+    artistYoutube: "https://www.youtube.com/embed/GKCpaLR_r14&list=PLh6cmoyN1yneZ4Sb1zrLhF7bhLmDUU-nB&index=5",
+    artistEvent: "Mission Possible: Sat, Sept 14 5:00-6:00pm"
   },
   {
     artistID: 3,
@@ -32,7 +34,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "http://andrea-dawson.com/",
     artistSpotify: "https://open.spotify.com/embed/track/2u66IcKxHxadKe1YpHNxNT?si=XqN1O6t_SL6H_XEeCQNzYw",
-    artistYoutube: "https://www.youtube.com/embed/VkBlf95HRCw"
+    artistYoutube: "https://www.youtube.com/embed/VkBlf95HRCw",
+    artistEvent: "Full Circle Bar: Sat, Sept 14 9:00-9:30pm"
 
   },
   {
@@ -42,7 +45,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "https://www.chron.com/entertainment/music/article/Barbara-Lynn-receives-NEA-honor-13010469.php",
     artistSpotify: "https://open.spotify.com/embed/track/5CEREcGR5WaLt40YzTQ62e",
-    artistYoutube: "https://www.youtube.com/embed/U6Y7sEO7Low"
+    artistYoutube: "https://www.youtube.com/embed/U6Y7sEO7Low",
+    artistEvent: "Big Easy Bar & Grill: Sun, Sept 15 6:30-7:30pm"
 
   },
   {
@@ -52,7 +56,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: "Mission Possible Parking Lot: Sun, Sept 15 6:40-8:00pm"
   },
   {
     artistID: 6,
@@ -61,7 +66,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/WSicdduH0ds"
+    artistYoutube: "https://www.youtube.com/embed/WSicdduH0ds",
+    artistEvent: ["Big Easy Bar & Grill: Sat, Sept 14 6:20-10:20pm", "Big Easy Bar & Grill: Sun, Sept 15 4:00-9:00pm"]
 
   },
   {
@@ -71,7 +77,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/69CuiaKEedGZ91mvdzysZq",
-    artistYoutube: "https://www.youtube.com/embed/tIq_tbz7Gf8"
+    artistYoutube: "https://www.youtube.com/embed/tIq_tbz7Gf8",
+    artistEvent: ["Full Circle Bar: Sat, Sept 14 5:30-6:00pm", "Full Circle Bar: Sun, Sept 15 8:00-8:30pm", "Justine's Brasserie: Tues, Sept 17 8:00pm-12:00am"]
   },
   {
     artistID: 8,
@@ -80,7 +87,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "http://bloodsax.main.jp/?fbclid=IwAR1ptCsXR-CEAtyKj6qGp70J1X__tI76dOSxdQw3bpGr9OCSnwQuiRycD1s",
     artistSpotify: "https://open.spotify.com/embed/track/1wSL3lQHdSoGwtFbOis0Zm",
-    artistYoutube: "https://www.youtube.com/embed/pqI7QIsJkR4"
+    artistYoutube: "https://www.youtube.com/embed/pqI7QIsJkR4",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 8:00-9:30pm", "Dozen Street: Sat, Sept 14 7:30-10:00pm", "Mission Possible: Sun, Sept 15 6:45-8:00pm", "Justine's Brasserie: Tues, Sept 17 8:00pm-12:00am"]
 
   },
   {
@@ -90,7 +98,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "https://www.newschoolofmusic.org/",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: "Mission Possible: Sat, Sept 14 7:25-8:20pm"
+
   },
   {
     artistID: 10,
@@ -99,7 +109,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: "Full Circle Bar: Sat, Sept 14 8:30-9:00pm"
+
   },
   {
     artistID: 11,
@@ -108,7 +120,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: "Full Circle Bar: Sat, Sept 14 4:30-9:30pm"
+
   },
   {
     artistID: 12,
@@ -117,8 +131,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "http://www.carlweathersby.org/",
     artistSpotify: "https://open.spotify.com/embed/track/7Jxp79DHtduKJ7YPo4lDaC",
-    artistYoutube: "https://www.youtube.com/embed/oLfkXAeboKA"
-
+    artistYoutube: "https://www.youtube.com/embed/oLfkXAeboKA",
+    artistEvent: "Big Easy Bar & Grill: Sun, Sept 15 5:00-6:00pm"
   },
   {
     artistID: 13,
@@ -127,7 +141,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Austin Vintage Guitar: Sat, Sept 14 1:00-2:00pm", "Big Easy Bar & Grill: Sat, Sept 14 5:20-6:00pm"]
+
   },
   {
     artistID: 14,
@@ -136,7 +152,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "https://chuckrainey.com/",
     artistSpotify: "https://open.spotify.com/embed/track/2uqr9arJdbS5Huef2eFJol",
-    artistYoutube: "https://www.youtube.com/embed/O2ahiZvCP8o&list=OLAK5uy_n4-JORxnqU0ZzwMNmJHMOqWRU6SZNa2JA&index=3"
+    artistYoutube: "https://www.youtube.com/embed/O2ahiZvCP8o&list=OLAK5uy_n4-JORxnqU0ZzwMNmJHMOqWRU6SZNa2JA&index=3",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 9:45-11:00pm", "Austin Vintage Guitar: Sat, Sept 14 1:00-2:00pm","Mission Possible Parking Lot: Sat, Sept 14 7:00-8:00pm","Big Easy Bar & Grill: Sun, Sept 15 8:00-9:00pm"]
 
   },
   {
@@ -146,7 +163,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/4Q0oqa1l7WJXmtGaZbzPS0",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Austin Vintage Guitar: Sat, Sept 14 1:00-2:00pm", "Big Easy Bar & Grill: Sat, Sept 14 6:20-7:20pm"]
   },
   {
     artistID: 16,
@@ -155,8 +173,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/C5CG5qe9wac"
-
+    artistYoutube: "https://www.youtube.com/embed/C5CG5qe9wac",
+    artistEvent: "Big Easy Bar & Grill: Sat, Sept 14 6:20-10:20pm"
   },
   {
     artistID: 17,
@@ -165,7 +183,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/4r17N5j0GXjbHFgUY5Dd1o",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Mission Possible Parking Lot: Sat, Sept 14 7:00-8:00pm", "Dozen Street: Sat, Sept 14 9:00-10:00pm", "Mission Possible: Sun, Sept 15 6:45-8:00pm", "Justine's Brasserie: Tues, Sept 17 8:00pm-12:00am"]
   },
   {
     artistID: 18,
@@ -174,7 +193,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "http://www.donbraden.com/",
     artistSpotify: "https://open.spotify.com/embed/track/7Gq3gnDaQK8pfP8pnPjoG4",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Mission Possible: Sat, Sept 14 5:00-6:00pm"]
   },
   {
     artistID: 19,
@@ -183,7 +203,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: "Dozen Street Bar: Sat, Sept 14 4:00-5:00pm"
+
   },
   {
     artistID: 20,
@@ -192,7 +214,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/BlRc3mp2F9Q"
+    artistYoutube: "https://www.youtube.com/embed/BlRc3mp2F9Q",
+    artistEvent: ["Mission Possible: Sat, Sept 14 5:00-8:20pm"]
 
   },
   {
@@ -202,7 +225,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "https://greggasmithmusic.com/home",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/YW-lSDjkS1I"
+    artistYoutube: "https://www.youtube.com/embed/YW-lSDjkS1I",
+    artistEvent: "Mission Possible Parking Lot: Sun, Sept 15 5:20-6:20pm"
 
   },
   {
@@ -212,7 +236,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Big Easy Bar & Grill: Sat, Sept 14 4:30-10:20pm", "Full Circle Bar: Sun, Sept 15 4:30-8:30pm"]
+
   },
   {
     artistID: 23,
@@ -221,7 +247,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: "Full Circle Bar: Sun, Sept 15 5:00-5:30pm"
+
   },
   {
     artistID: 24,
@@ -230,7 +258,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 9:45-11:00pm", "Mission Possible Parking Lot: Sat, Sept 14 7:00-8:00pm"]
+
   },
   {
     artistID: 25,
@@ -239,7 +269,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/wUPZO3sHN5c"
+    artistYoutube: "https://www.youtube.com/embed/wUPZO3sHN5c",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 9:45-11:00pm", "Mission Possible Parking Lot: Sat, Sept 14 7:00-8:00pm", "Big Easy Bar & Grill: Sun, Sept 15 4:00-9:00pm"]
 
   },
   {
@@ -249,8 +280,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/1ZZ4xYTORrkU9gY0isK6OR",
-    artistYoutube: "https://www.youtube.com/embed/MegutC1rUok"
-
+    artistYoutube: "https://www.youtube.com/embed/MegutC1rUok",
+    artistEvent: ["Mission Possible: Sat, Sept 14 6:20-7:05pm"]
   },
   {
     artistID: 27,
@@ -259,7 +290,8 @@ const artistSeed = [
     artistAbout: "Johnny LaTouf is the owner of Skylark Lounge, a generous supporter of the Eastside Kings Festival and blues musicians.",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["MC at Full Circle Bar: Sat, Sept 14 4:30-9:30pm"]
   },
   {
     artistID: 28,
@@ -268,7 +300,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/wUPZO3sHN5c"
+    artistYoutube: "https://www.youtube.com/embed/wUPZO3sHN5c",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 9:45-11:00pm", "Mission Possible Parking Lot: Sat, Sept 14 7:00-8:00pm", "Big Easy Bar & Grill: Sun, Sept 15 4:00-9:00pm"]
 
   },
   {
@@ -278,7 +311,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/327RfrgwD8WNelFhU4NCNr?si=kLuGQ9mYQGC28EcS3l86KQ",
-    artistYoutube: "https://www.youtube.com/embed/4kNVSAXhycw"
+    artistYoutube: "https://www.youtube.com/embed/4kNVSAXhycw",
+    artistEvent: ["Mission Possible Parking Lot: Sat, Sept 14 7:00-8:00pm", "Dozen Street: Sat, Sept 14 9:00-10:00pm"]
+
 
   },
   {
@@ -288,7 +323,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/6BIpLmms6hIdSFI3GNTw8J",
-    artistYoutube: "https://www.youtube.com/embed/8vM0Vq_v72c"
+    artistYoutube: "https://www.youtube.com/embed/8vM0Vq_v72c",
+    artistEvent: ["Big Easy Bar & Grill: Sat, Sept 14 9:20-10:20pm", "Full Circle Bar: Sun, Sept 15 6:00-7:00pm"]
 
   },
   {
@@ -298,7 +334,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "https://www.facebook.com/ThaLadyD/videos/1700878136845745/",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Big Easy Bar & Grill: Sun, Sept 15 4:00-4:45pm"]
   },
   {
     artistID: 32,
@@ -307,7 +344,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/7lOV91qKP6qRTrE5Hg9HCb",
-    artistYoutube: "https://www.youtube.com/embed/dRpV94UuyHM"
+    artistYoutube: "https://www.youtube.com/embed/dRpV94UuyHM",
+    artistEvent: ["Full Circle Bar: Sat, Sept 14 6:00-6:30pm"]
 
   },
   {
@@ -317,7 +355,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Mission Possible Parking Lot: Sun, Sept 15 6:40-8:00pm"]
   },
   {
     artistID: 34,
@@ -326,8 +365,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "https://luckypeterson.com/",
     artistSpotify: "https://open.spotify.com/embed/track/6QSH6q90XNj5VDi52qpe8B",
-    artistYoutube: "https://www.youtube.com/embed/TI5GHHYE6Ko&list=PLYc0FapKFwGr4TvMHx_EqeSWnufyIEVLG&index=8"
-
+    artistYoutube: "https://www.youtube.com/embed/TI5GHHYE6Ko&list=PLYc0FapKFwGr4TvMHx_EqeSWnufyIEVLG&index=8",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 9:45-11:00pm", "Mission Possible: Sat, Sept 14 7:00-8:00pm"]
   },
   {
     artistID: 35,
@@ -336,7 +375,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/Mi-n6UeZaDk"
+    artistYoutube: "https://www.youtube.com/embed/Mi-n6UeZaDk",
+    artistEvent: ["Dozen Street: Sat, Sept 14 7:30-8:30pm"]
 
   },
   {
@@ -346,7 +386,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/t27HK1qdNiI"
+    artistYoutube: "https://www.youtube.com/embed/t27HK1qdNiI",
+    artistEvent: ["Full Circle Bar: Sat, Sept 14 4:30-5:30pm"]
 
   },
   {
@@ -356,7 +397,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/piF1zkw8iKA"
+    artistYoutube: "https://www.youtube.com/embed/piF1zkw8iKA",
+    artistEvent: ["Dozen Street: Sat, Sept 14 4:00-5:00pm"]
 
   },
   {
@@ -366,7 +408,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/6ZHOgmJycmk"
+    artistYoutube: "https://www.youtube.com/embed/6ZHOgmJycmk",
+    artistEvent: ["Dozen Street: Sat, Sept 14 5:00-6:00pm"]
+
 
   },
   {
@@ -376,7 +420,9 @@ const artistSeed = [
     artistAbout: "Mike is one of the owners of Antone's Record Store, a generous supporter of the Eastside Kings Festival.",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Big Easy Bar & Grill: Sat, Sept 14 4:30-6:00pm"]
+
   },
   {
     artistID: 40,
@@ -385,7 +431,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/5m4Kj4yfqgJmjAoaJlzJd4?si=YOzGKFujRpa4LN3K8Sp_hQ",
-    artistYoutube: "https://www.youtube.com/embed/KD3uE5vqMTo"
+    artistYoutube: "https://www.youtube.com/embed/KD3uE5vqMTo",
+    artistEvent: ["Big Easy Bar & Grill: Sat, Sept 14 4:30-6:00pm"]
 
   },
   {
@@ -395,7 +442,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/5cDIbJtehjhImG8eytKwGw?si=YIm4v7mrSHOVBJFZI9CXbg",
-    artistYoutube: "https://www.youtube.com/embed/KNcZs2qFM-E"
+    artistYoutube: "https://www.youtube.com/embed/KNcZs2qFM-E",
+    artistEvent: ["Mission Possible: Sat, Sept 14 5:00-8:20pm"]
+
 
   },
   {
@@ -405,7 +454,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/8NU0Ie3XQeY"
+    artistYoutube: "https://www.youtube.com/embed/8NU0Ie3XQeY",
+    artistEvent: ["Big Easy Bar & Grill: Sat, Sept 14 6:20-10:20pm", "Big Easy Bar & Grill: Sun, Sept 15 4:00-9:00pm"]
+
 
   },
   {
@@ -415,7 +466,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Dozen Street: Sun, Sept 15 6:30-9:00pm"]
+
   },
   {
     artistID: 44,
@@ -424,7 +477,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/esJapjFRTEI"
+    artistYoutube: "https://www.youtube.com/embed/esJapjFRTEI",
+    artistEvent: ["Full Circle Bar: Sun, Sept 15 7:30-8:00pm"]
 
   },
   {
@@ -434,7 +488,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Full Circle Bar: Sat, Sept 14 4:30-9:30pm", "Full Circle Bar: Sun, Sept 15 4:30-8:30pm"]
+
   },
   {
     artistID: 46,
@@ -443,7 +499,9 @@ const artistSeed = [
     artistAbout: "Pierre and his wife Justine are the owners of Justine's Brasserie, a generous supporter of the Eastside Kings Festival. He is also a member of the Eastside Kings Foundation board of directors.",
     artistSite: "https://www.justines1937.com/",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Big Easy Bar & Grill: Sat, Sept 14 4:30-6:00pm"]
+
   },
   {
     artistID: 47,
@@ -452,7 +510,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/vNRL5XVrFJI"
+    artistYoutube: "https://www.youtube.com/embed/vNRL5XVrFJI",
+    artistEvent: ["Full Circle Bar: Sun, Sept 15 4:30-5:00pm"]
 
   },
   {
@@ -462,7 +521,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/uYvBmXwipC0"
+    artistYoutube: "https://www.youtube.com/embed/uYvBmXwipC0",
+    artistEvent: ["Mission Possible: Sun, Sept 15 6:40-8:00pm"]
+
 
   },
   {
@@ -472,7 +533,9 @@ const artistSeed = [
     artistAbout: "Dr. Roger Wood is a music author, a Blues afficionado, and a huge supporter of the Eastside Kings Festival. We are grateful to Roger for being an MC for the festival.",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["MC at Mission Possible Parking Lot: Sat, Sept 14 5:20-8:00pm", "MC at Mission Possible Parking Lot: Sun, Sept 15 5:20-8:00pm"]
+
   },
   {
     artistID: 50,
@@ -481,7 +544,9 @@ const artistSeed = [
     artistAbout: "Scott Bock is a writer for Living Blues magazine. His support of the Eastside Kings Festival is greatly appreciated, and we are grateful to him for being an MC year after year.",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["MC at Austin Vintage Guitar Work Shop: Sat, Sept 14 1:00-2:00pm"]
+
   },
   {
     artistID: 51,
@@ -490,7 +555,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/RVCywyqBdYA&feature=youtu.be"
+    artistYoutube: "https://www.youtube.com/embed/RVCywyqBdYA&feature=youtu.be",
+    artistEvent: ["Big Easy Bar & Grill: Sun, Sept 15 8:00-9:00pm"]
 
   },
   {
@@ -500,7 +566,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Full Circle Bar: Sat, Sept 14 4:30-9:30pm"]
+
   },
   {
     artistID: 53,
@@ -509,7 +577,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "http://bloodsax.main.jp/?fbclid=IwAR1ptCsXR-CEAtyKj6qGp70J1X__tI76dOSxdQw3bpGr9OCSnwQuiRycD1s",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/pqI7QIsJkR4"
+    artistYoutube: "https://www.youtube.com/embed/pqI7QIsJkR4",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 8:00-9:30pm", "Austin Vintage Guitar: Sat, Sept 14 1:00-2:00pm", "Dozen Street: Sat, Sept 14 7:30-10:00pm", "Mission Possible: Sun, Sept 15 6:45-8:00pm", "Justine's Brasserie: Tues, Sept 17 8:00pm-12:00am"]
 
   },
   {
@@ -519,7 +588,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Austin Vintage Guitar: Sat, Sept 14 1:00-2:00pm", "Big Easy Bar & Grill: Sat, Sept 14 7:50-8:50pm"]
+
   },
   {
     artistID: 55,
@@ -528,7 +599,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/bkW8DTXjn9E"
+    artistYoutube: "https://www.youtube.com/embed/bkW8DTXjn9E",
+    artistEvent: ["Full Circle Bar: Sat, Sept 14 7:00-8:00pm"]
 
   },
   {
@@ -538,7 +610,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "https://www.facebook.com/mackdaddymusic/videos/1033365060177569/",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Dozen Street: Sat, Sept 14 5:30-7:00pm"]
+
   },
   {
     artistID: 57,
@@ -547,7 +621,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/6ZHOgmJycmk"
+    artistYoutube: "https://www.youtube.com/embed/6ZHOgmJycmk",
+    artistEvent: ["Dozen Street: Sun, Sept 15 5:00-6:00pm"]
 
   },
   {
@@ -557,7 +632,8 @@ const artistSeed = [
     artistAbout: "House band at the Silver Slipper in Houston, TX.",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Dozen Street: Sun, Sept 15 6:30-9:00pm"]
   },
   {
     artistID: 59,
@@ -566,8 +642,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/6CM6bg4owVXEHo1g7QzWyg?si=GJkiV_KSTImLs5AtiYLhXQ",
-    artistYoutube: "https://www.youtube.com/embed/bgVVJYS0fqI"
-
+    artistYoutube: "https://www.youtube.com/embed/bgVVJYS0fqI",
+    artistEvent: ["Mission Possible: Sat, Sept 14 5:00-8:20pm"]
   },
   {
     artistID: 60,
@@ -576,7 +652,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "https://open.spotify.com/embed/track/3T1iXyK8LzxE4QYbU30z2N",
-    artistYoutube: "https://www.youtube.com/embed/S8-ubeKgrUg"
+    artistYoutube: "https://www.youtube.com/embed/S8-ubeKgrUg",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 11:15pm-1:00am", "Austin Vintage Guitar: Sat, Sept 14 1:00-2:00pm", "Mission Possible Parking Lot: Sat, Sept 14 5:20-6:30pm"]
+
 
   },
   {
@@ -586,8 +664,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "http://bloodsax.main.jp/?fbclid=IwAR1ptCsXR-CEAtyKj6qGp70J1X__tI76dOSxdQw3bpGr9OCSnwQuiRycD1s",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/pqI7QIsJkR4"
-
+    artistYoutube: "https://www.youtube.com/embed/pqI7QIsJkR4",
+    artistEvent: ["Antone's Night Club: Fri, Sept 13 8:00-11:00pm", "Dozen Street: Sat, Sept 14 7:30-10:00pm", "Mission Possible: Sun, Sept 15 6:45-8:00pm", "Justine's Brasserie: Tues, Sept 17 8:00pm-12:00am"]
   },
   {
     artistID: 62,
@@ -596,8 +674,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/vXcGNx-KioM"
-
+    artistYoutube: "https://www.youtube.com/embed/vXcGNx-KioM",
+    artistEvent: ["Dozen Street: Sun, Sept 15 6:30-9:00pm"]
   },
   {
     artistID: 63,
@@ -606,8 +684,8 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: "https://www.youtube.com/embed/v04SFLh_QCI"
-
+    artistYoutube: "https://www.youtube.com/embed/v04SFLh_QCI",
+    artistEvent: ["Big Easy Bar & Grill: Sat, Sept 14 4:30-6:00pm"]
   },
   {
     artistID: 64,
@@ -616,7 +694,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Dozen Street: Sun, Sept 15 6:30-9:00pm"]
+
   },
   {
     artistID: 65,
@@ -625,7 +705,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Dozen Street: Sun, Sept 15 6:30-9:00pm"]
+
   },
   {
     artistID: 66,
@@ -634,7 +716,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Dozen Street: Sun, Sept 15 6:30-9:00pm"]
+
   },
   {
     artistID: 67,
@@ -643,7 +727,9 @@ const artistSeed = [
     artistAbout: "",
     artistSite: "",
     artistSpotify: "",
-    artistYoutube: ""
+    artistYoutube: "",
+    artistEvent: ["Dozen Street: Sun, Sept 15 6:30-9:00pm"]
+
   }
 ]
 
@@ -793,6 +879,7 @@ const eventSeed = [
     artistIdArr: [8],
     startTime: "20:00",
     endTime: "21:30",
+    eventDay: "Friday, Sept 13th"
   },
 
   {
@@ -803,6 +890,8 @@ const eventSeed = [
     artistIdArr: [34, 14, 25, 28, 24, 61],
     startTime: "21:45",
     endTime: "23:00",
+    eventDay: "Friday, Sept 13th"
+
   },
 
   {
@@ -813,6 +902,8 @@ const eventSeed = [
     artistIdArr: [60],
     startTime: "23:15",
     endTime: "1:00",
+    eventDay: "Friday, Sept 13th"
+
   },
 
   {
@@ -823,6 +914,8 @@ const eventSeed = [
     artistIdArr: [50, 14, 15, 61, 13, 54, 53],
     startTime: "13:00",
     endTime: "14:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -833,6 +926,8 @@ const eventSeed = [
     artistIdArr: [49],
     startTime: "17:20",
     endTime: "20:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -843,6 +938,8 @@ const eventSeed = [
     artistIdArr: [60],
     startTime: "17:20",
     endTime: "18:30",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -855,6 +952,8 @@ const eventSeed = [
     ],
     startTime: "19:00",
     endTime: "20:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -865,6 +964,8 @@ const eventSeed = [
     artistIdArr: [27],
     startTime: "16:30",
     endTime: "21:30",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -875,6 +976,8 @@ const eventSeed = [
     artistIdArr: [36],
     startTime: "16:30",
     endTime: "17:30",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -885,6 +988,8 @@ const eventSeed = [
     artistIdArr: [7],
     startTime: "17:30",
     endTime: "18:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -895,6 +1000,8 @@ const eventSeed = [
     artistIdArr: [32],
     startTime: "18:00",
     endTime: "18:30",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -905,6 +1012,8 @@ const eventSeed = [
     artistIdArr: [55],
     startTime: "19:00",
     endTime: "20:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -915,6 +1024,8 @@ const eventSeed = [
     artistIdArr: [10],
     startTime: "20:30",
     endTime: "21:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -925,6 +1036,8 @@ const eventSeed = [
     artistIdArr: [3],
     startTime: "21:00",
     endTime: "21:30",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -935,6 +1048,8 @@ const eventSeed = [
     artistIdArr: [19, 37],
     startTime: "16:00",
     endTime: "17:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -945,6 +1060,8 @@ const eventSeed = [
     artistIdArr: [56],
     startTime: "17:30",
     endTime: "19:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -955,6 +1072,8 @@ const eventSeed = [
     artistIdArr: [35, 8],
     startTime: "19:30",
     endTime: "20:30",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -965,6 +1084,8 @@ const eventSeed = [
     artistIdArr: [17, 8, 29],
     startTime: "21:00",
     endTime: "22:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -975,6 +1096,8 @@ const eventSeed = [
     artistIdArr: [63],
     startTime: "16:30",
     endTime: "18:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -985,6 +1108,8 @@ const eventSeed = [
     artistIdArr: [13],
     startTime: "17:20",
     endTime: "18:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -995,6 +1120,8 @@ const eventSeed = [
     artistIdArr: [15],
     startTime: "18:20",
     endTime: "19:20",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -1005,6 +1132,8 @@ const eventSeed = [
     artistIdArr: [54],
     startTime: "19:50",
     endTime: "20:50",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -1015,6 +1144,8 @@ const eventSeed = [
     artistIdArr: [30],
     startTime: "21:20",
     endTime: "22:20",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -1025,6 +1156,8 @@ const eventSeed = [
     artistIdArr: [18, 2],
     startTime: "17:00",
     endTime: "18:00",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -1035,6 +1168,8 @@ const eventSeed = [
     artistIdArr: [26],
     startTime: "18:20",
     endTime: "19:05",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -1045,6 +1180,8 @@ const eventSeed = [
     artistIdArr: [9],
     startTime: "19:25",
     endTime: "20:20",
+    eventDay: "Saturday, Sept 14th"
+
   },
 
   {
@@ -1055,6 +1192,8 @@ const eventSeed = [
     artistIdArr: [21],
     startTime: "17:20",
     endTime: "18:20",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1065,6 +1204,8 @@ const eventSeed = [
     artistIdArr: [48, 5, 33],
     startTime: "18:40",
     endTime: "20:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1075,6 +1216,8 @@ const eventSeed = [
     artistIdArr: [47],
     startTime: "16:30",
     endTime: "17:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1085,6 +1228,8 @@ const eventSeed = [
     artistIdArr: [23],
     startTime: "17:00",
     endTime: "17:30",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1095,6 +1240,8 @@ const eventSeed = [
     artistIdArr: [30],
     startTime: "18:00",
     endTime: "19:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1105,6 +1252,8 @@ const eventSeed = [
     artistIdArr: [44],
     startTime: "19:30",
     endTime: "20:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1115,6 +1264,8 @@ const eventSeed = [
     artistIdArr: [7],
     startTime: "20:00",
     endTime: "20:30",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1125,6 +1276,8 @@ const eventSeed = [
     artistIdArr: [38, 57],
     startTime: "17:00",
     endTime: "18:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1135,6 +1288,8 @@ const eventSeed = [
     artistIdArr: [58],
     startTime: "18:30",
     endTime: "21:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1145,6 +1300,8 @@ const eventSeed = [
     artistIdArr: [31],
     startTime: "16:00",
     endTime: "16:45",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1155,6 +1312,8 @@ const eventSeed = [
     artistIdArr: [12],
     startTime: "17:00",
     endTime: "18:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1165,6 +1324,8 @@ const eventSeed = [
     artistIdArr: [4],
     startTime: "18:30",
     endTime: "19:30",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1175,6 +1336,8 @@ const eventSeed = [
     artistIdArr: [51, 14],
     startTime: "20:00",
     endTime: "21:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1185,6 +1348,8 @@ const eventSeed = [
     artistIdArr: [1],
     startTime: "17:15",
     endTime: "18:15",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1195,6 +1360,8 @@ const eventSeed = [
     artistIdArr: [8, 17],
     startTime: "18:45",
     endTime: "20:00",
+    eventDay: "Sunday, Sept 15th"
+
   },
 
   {
@@ -1205,6 +1372,8 @@ const eventSeed = [
     artistIdArr: [8, 7, 17],
     startTime: "21:30",
     endTime: "1:00",
+    eventDay: "Tuesday, Sept 17th"
+
   }
 
 ]
