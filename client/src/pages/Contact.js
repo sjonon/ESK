@@ -7,7 +7,7 @@ class Contact extends Component {
     render() {
         return (
             <Container>
-                <img src={Eskf} alt="esk-logo"/>
+                <img id="esklogo" src={Eskf} alt="esk-logo"/>
                 <div id="contact">
                     <h1>Contact Information</h1>
                     <hr/>

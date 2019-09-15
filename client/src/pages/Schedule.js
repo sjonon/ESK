@@ -18,8 +18,6 @@ class Schedule extends Component {
     loadArtists = () => {
         API.getArtists()
         .then(res => {
-            console.log("loading artists")
-            console.log(res.data)
             this.setState({ artists: res.data})
         })
     }

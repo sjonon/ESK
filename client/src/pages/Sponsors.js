@@ -9,6 +9,7 @@ import Conan from '../images/conans_pizza_logo.png';
 import Blues from '../images/living_blues_logo.jpg';
 import Mitchell from '../images/paul_mitchell_logo.png';
 import Moontower from '../images/moontower_logo.png';
+import './FAQ.css';
 import Nwr from '../images/newWest_records_logo.png';
 
 
@@ -17,8 +18,9 @@ class Sponsors extends Component {
     render() {
         return (
             <Container>
-                <h1>Eastside Kings Festival</h1>
-                <h3>Would like to thank the following event sponsors for their gracious support for this event!</h3>
+                <div id="sponsors">
+                <h1 style={{textAlign:"center", fontSize:"60px", fontFamily: "Shrikhand, cursive"}}>Eastside Kings Festival</h1>
+                <h3>Would like to thank the following event sponsors for their gracious support of this event!</h3>
                 <h5>The Eastside Kings Foundation preserves and promotes the cultural heritage of African American Blues,
                     Jazz, and Gospel. Our initiative focuses on largely unknown African American musicians and aims to give
                     them opportunities to showcase their music in live performances around the world.</h5>
@@ -43,6 +45,7 @@ class Sponsors extends Component {
                 <img src={Nwr} alt=""/>
                 <img src={Abs} alt=""/>
                 <img src="http://www.austintexas.gov/sites/default/files/files/EGRSO/COA_CA_hz_fc_300.jpg" alt=""/>
+                </div>
             </Container>
         )
     }
