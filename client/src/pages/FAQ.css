@@ -24,3 +24,10 @@
 #schedule h1 {
     text-align: center;
 }
+#schedule p {
+    color: #333;
+    font-size: 20px;
+}
+#schedule div {
+    margin-top: 70px;
+}
