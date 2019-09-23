@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container } from '../components/Grid';
+import ScheduleNav from '../components/ScheduleNav';
 import esksched from '../images/esk_schedule.jpg';
 import './FAQ.css';
 
