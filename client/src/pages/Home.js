@@ -36,7 +36,7 @@ class Home extends Component {
                     <h5>The Eastside Kings Foundation is a local non-profit organization dedicated to preserving and highlighting excellent local musicians in blues, gospel, and jazz.</h5><br/>
                     <h3>What Is the Eastside Kings Festival?</h3>
                     <h5>Eastside Kings Festival is a celebration of generations of great living musicians who have given us some of the best years of music, bringing together great blues, gospel, and jazz acts every year for two amazing evenings in East Austin, TX.</h5>
-                    <h5>This year's show festival takes place across September 14th & 15th, 2019.</h5>
+                    <h5>This year's festival took place September 14th & 15th, 2019.  We'll be back again September 12th & 13th, 2020.</h5>
                     <hr/>
                     <h6>To learn more about the event, check out the <a href="/schedule">schedule</a> or our <a href="/faq">FAQ</a> page.</h6>
                     <h6>Not finding what you need? <a href="/contact">Contact Us</a></h6>
