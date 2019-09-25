@@ -20,17 +20,16 @@ Prior to the creation of our app, festival attendees could only view information
  This app was developed for the Eastside Kings Foundation/Eastside Kings Festival in Austin, TX by the Endemic Design team.
 
 ## Technologies Utilized
-  * React, Redux, Redux-Form
+  * React
   * Node, Express
   * MongoDB, Mongoose
-  * Authentication using Passport, Bcrypt, JSON Web Tokens
+  * HTML, CSS
 
 ## Endemic Design Team
   * Gabe Alvarez:- https://github.com/spookypants
   * Juan Baquera:- https://github.com/jebaquera
   * Sylvia Jonon:- https://github.com/sjonon
   * Avinash Singh:- https://github.com/avinashsinghdhillon
-  * Brittany Taylor:- https://github.com/britt421
 
 ## Screenshots
 
@@ -40,9 +39,4 @@ Prior to the creation of our app, festival attendees could only view information
 ### Schedule By Artist
 ![ArtistSchedule](client/public/images/artistsched.png)
 
-### Schedule By Day
-![DaySchedule](client/public/images/schedByDay.png)
-
-### Itinerary
-![Itinerary](https://imgur.com/xmDBUEa)
 
